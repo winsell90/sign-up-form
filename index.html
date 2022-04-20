@@ -17,28 +17,28 @@
   </div>
   <div class="right">
     <div class="information">
-      <p class="info"> This is the fake sign-up page I made for a fake spa! The purpose of this page was to learn form inputs and client side form validation. So sign up now and enter to win a free trip to the fake spa! </p>
+      <p class="info"> This is the fake sign-up page I made for a fake spa! The purpose of this page was to learn form inputs. So sign up now and enter to win a free trip to the fake spa! </p>
 
       <p class="info2">You <i>deserve</i> a spa day.</p>
     </div>
   
     <div class="middle">
-      <form action="test.test" method="post">
+      <form action="test.test" method="post" name="submit">
       <p>Enter your information below for your chance to win!</p>
       <div class="signup">
         <div class="firstside">
           <ul>
             <li>
         <label for="fname">FIRST NAME</label>
-      <input type="text" name="fname">
+      <input type="text" name="fname" placeholder="Your first name" required>
       </li>
       <li>
       <label for="email">E-MAIL</label>
-      <input type="email" name="email">
+      <input type="email" name="email" placeholder="example@fake.com" required>
       </li>
       <li>
       <label for="pword">PASSWORD</label>
-      <input type="password" name="pword">
+      <input type="password" name="pword" placeholder="Your password here" required>
       </li>
       </ul>
       </div>
@@ -46,15 +46,15 @@
         <ul>
           <li>
       <label for="lname">LAST NAME</label>
-      <input type="text" name="lname">
+      <input type="text" name="lname" placeholder="Your last name" required>
       </li>
       <li>
       <label for="phone">PHONE NUMBER</label>
-      <input type="tel" name="phone">
+      <input type="tel" name="phone" placeholder="(123) 123-4567" required>
       </li>
       <li>
       <label for="pword2">CONFIRM PASSWORD</label>
-      <input type="password" name="pword2">
+      <input type="password" name="pword2" placeholder="Please confirm" required>
     </li>
     </ul>
       </div>
@@ -63,8 +63,8 @@
     </div>
     <div class="submit">
     
-      <label for="submit"></label>
-      <button class="submission" name="submit">Sign up now</button>
+      
+      <button type="submit" class="submission" name="submit">Sign up now</button>
     </div>
 </div>
 </body>
