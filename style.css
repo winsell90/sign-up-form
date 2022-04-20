@@ -1,5 +1,103 @@
 body {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  font-family: 'Roboto', sans-serif
+}
+.left {
+  width: 40%;
+position: relative;
 }
 
+#bgimg {
+  
+  width: 100%;
+  height: 100%;
+}
+
+#smlogo {
+  width: 100%;
+}
+
+#logo {
+  top: 30vh;
+  max-width: 100%;
+  color: rgb(255, 255, 255);
+  font-size: 15vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  position: absolute;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  font-family: 'Square Peg', sans-serif
+}
+
+.info {
+  text-align: left;
+  font-size: 3vh;
+  width: 80%;
+}
+
+.info2 {
+  text-align: left;
+  font-size: 3vh;
+  width: 80%;
+}
+
+.information {
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #ccb99c;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.signup {
+  display: flex;
+}
+
+.middle {
+  background-color: rgb(206, 204, 204);
+  height: 40%;
+  display: flex;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  position: relative;
+  z-index: 10;
+}
+
+form {
+  width: 100%;
+  padding-left: 10%;
+}
+.submit {
+  background-color: #ccb99c;
+  height: 30%;
+  font-size: 2rem;
+  padding-left: 10%;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10%;
+  font-size: 1.5vh;
+  font-weight: 600;
+}
+
+ul {
+  padding-left: 0%;
+}
+
+.secondside {
+  padding-left: 10%;
+}
